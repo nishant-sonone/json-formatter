@@ -1,0 +1,20 @@
+/* src/components/OutputComponent.css */
+.output {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.output .error {
+    color: #F44336;
+}
+
+.editor-container label, .output-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--primary-color); /* assuming you have primary color defined */
+}

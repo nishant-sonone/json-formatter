@@ -1,0 +1,20 @@
+/* src/components/EditorComponent.css */
+.editor {
+    height: 300px; /* Adjust height as necessary */
+    border: 1px solid #ddd;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+    .editor {
+        height: 200px;
+    }
+}
+
+.editor-container label, .output-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--primary-color); /* assuming you have primary color defined */
+}

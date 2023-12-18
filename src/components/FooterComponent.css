@@ -1,0 +1,14 @@
+/* src/components/FooterComponent.css */
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+    .footer p {
+        font-size: 0.8em;
+    }
+}
